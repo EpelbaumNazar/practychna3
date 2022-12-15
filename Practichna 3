@@ -1,0 +1,1078 @@
+print("Welcome to program what change your word into # or *\n if you enter word from lower type word transform to #, if higher to *")
+
+word = input("Enter word:")
+
+for word in word:
+    if "A" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "*"
+                if i == 1 or i == 2 or i == 4 or i == 5 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 0 or i == 3:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+            print(row)
+    if "B" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "*"
+                if i == 0 or i == 3 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+                if i == 1 or i == 2 or i == 4 or i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 4 or i == 5:
+                    if j == 4:
+                        row = row + "*"
+            print(row)
+    if "C" in word:
+        for i in range(8):
+            row =  ""
+            for j in range(5):
+                if i == 0 or i == 6:
+                    if j == 0:
+                        row = " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 0:
+                        row = row + "*"
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+                if i == 1 or i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1 or i == 5:
+                    if j == 4:
+                        row = row + "*"
+            print(row)
+
+    if "D" in word:
+        for i in range(8):
+            row =  ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "*"
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 4:
+                        row = row + "*"
+            print(row)
+
+    if "E" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "*"
+                if i == 0 or i == 3 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+                if i == 0 or i == 6:
+                    if j == 4:
+                        row == row + "*"
+            print(row)
+
+    if "F" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "*"
+                if i == 0:
+                    if j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "*"
+                if i == 3:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+            print(row)
+    if "G" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 0:
+                        row = row + "*"
+                if i == 0 or i == 6:
+                    if j == 0:
+                        row = row + " "
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2:
+                        row == row + "*"
+                if i == 1 or i == 2 or i == 4 or i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 1 or j == 2:
+                        row = row  + " "
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2:
+                        row = row + "*"
+                if i == 0 or i == 3 or i == 6:
+                    if j == 3:
+                        row = row + "*"
+                if i == 1 or i == 3 or i == 4 or i == 5:
+                    if j == 4:
+                        row = row + "*"
+            print(row)
+    if "H" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "*"
+                if i == 0 or i == 1 or i == 2 or i == 4 or i == 5 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+            print(row)
+    if "I" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 2:
+                        row = row + "*"
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+            print(row)
+    if "J" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 0:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 2:
+                        row = row + "*"
+                if i == 0:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+                if i == 6:
+                    if j == 0 or j == 2:
+                        row = row + "*"
+            print(row)
+    if "K" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "*"
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1 or i == 5:
+                    if j == 1 or j == 2:
+                        row = row + " "
+                if i == 2 or i == 4:
+                    if j == 1:
+                        row = row + " "
+            print(row)
+    if "L" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "*"
+                if i == 6:
+                    if j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "*"
+            print(row)
+    if "M" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 1 or j == 4:
+                        row = row + "*"
+                if i == 0 or i == 1 or i == 4 or i == 5 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 1 or j == 3:
+                        row = row + "*"
+                if i == 2:
+                    if j == 2:
+                        row = row + " "
+                if i == 3:
+                    if j == 1 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 2:
+                        row = row + "*"
+            print(row)
+    if "N" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 1 or j == 4:
+                        row = row + "*"
+                if i == 0 or i == 1 or i == 5 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 1:
+                        row = row + "*"
+                if i == 2:
+                    if j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 2:
+                        row = row + "*"
+                if i == 3:
+                    if j == 1 or j == 3:
+                        row = row + " "
+                if i == 4:
+                    if j == 1 or j == 2:
+                        row = row + " "
+                if i == 4:
+                    if j == 3:
+                        row = row + "*"
+            print(row)
+    if "O" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1 or j == 4:
+                        row = row + "*"
+                if i == 0 or i == 6:
+                    if j == 0:
+                        row = row + " "
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+            print(row)
+    if "P" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "*" 
+                if i == 1 or i == 2:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 0 or i == 3:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row +"*"
+                if i == 1 or i == 2:
+                    if j == 4:
+                        row = row + "*"
+            print(row)
+    if "Q" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1 or j == 4:
+                        row = row + "*"
+                if i == 0 or i == 6:
+                    if j == 0:
+                        row = row + " "
+                if i == 0:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+                if i == 1 or i == 2 or i == 3 or i == 4:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 5:
+                    if j == 1 or j == 2:
+                        row = row + " "
+                if i == 6:
+                    if j == 1 or j == 2 or j == 4:
+                        row = row + "*"
+                if i == 6:
+                    if j == 3:
+                        row = row + " "
+            print(row)
+    if "R" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "*" 
+                if i == 1 or i == 2:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 0 or i == 3:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row +"*"
+                if i == 1 or i == 2:
+                    if j == 4:
+                        row = row + "*"
+                if i == 4 or i == 5 or i == 6:
+                    if j == 4:
+                        row = row + "*"
+                if i == 4 or i == 5 or i == 6:
+                    if j == 2:
+                        row = row + " "
+                if i == 5 or i == 6:
+                    if j == 2:
+                        row = row + " "
+                if i == 6:
+                    if j == 3:
+                        row = row + " "
+            print(row)
+    if "S" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 3 or i == 6:
+                   if j == 0:
+                       row = row + " "
+                if i == 0 or i == 3 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+                if i == 0 or i == 1 or i == 2 or i == 4 or i == 5:
+                    if j == 4:
+                        row = row + "*"
+                if i == 4 or i == 5:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + " "
+            print(row)
+    if "T" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "*"
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 4 or i == 5 or i == 6:
+                    if j == 2:
+                        row = row + "*"
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 4 or i == 5 or i == 6:
+                    if j == 0 or j == 1:
+                        row = row + " "
+            print(row)
+    if "U" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1 or j == 4:
+                        row = row + "*"
+                if i == 6:
+                    if j == 0:
+                        row = row + " "
+                if i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "*"
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+            print(row)
+    if "V" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4:
+                    if j == 0 or j == 4:
+                        row = row + "*"
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 5:
+                    if j == 0 or j == 2:
+                        row = row + " "
+                if i == 5:
+                    if j == 1 or j == 3:
+                        row = row + "*"
+                if i == 6:
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 6:
+                    if j == 2:
+                        row = row + "*"  
+            print(row)
+    if "W" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "*"
+                if i == 0 or i == 1 or i == 2 or i == 5 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 1 or j == 3:
+                        row = row + " "
+                if i == 4:
+                    if j == 1 or j == 3:
+                        row = row + "*"
+                if i == 3:
+                    if j == 2:
+                        row = row + "*"
+                if i == 4:
+                    if j == 2:
+                        row = row + " "
+            print(row)
+    if "X" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 5 or i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "*"
+                if i == 0 or i == 1 or i == 5 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2 or i == 4:
+                    if j == 0 or j == 2:
+                        row = row + " "
+                if i == 2 or i == 4:
+                    if j == 1 or j == 3:
+                        row = row + "*"
+                if i == 3:
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 3:
+                    if j == 3:
+                        row = row + "*"
+            print(row)
+    if "Y" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1:
+                    if j == 0 or j == 4:
+                        row = row + "*"
+                if i == 0 or i == 1:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + " "
+                if i == 2:
+                    if j == 1 or j == 3:
+                        row = row + "*"
+                if i == 2:
+                    if j == 2:
+                        row = row + " "
+                if i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 1:
+                        row = row + " "
+                if i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 2:
+                        row = row + "*"
+            print(row)
+    if "Z" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 6:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "*"
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 4:
+                        row = row + "*"
+                if i == 1:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 2:
+                    if j == 0 or j == 1 or j == 2:
+                        row = row + " "
+                if i == 3:
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 4:
+                    if j == 0:
+                        row = row + " "
+            print(row)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#решіткою
+
+
+
+
+
+
+
+
+
+
+
+
+
+    if "a" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                if i == 1 or i == 2 or i == 4 or i == 5 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 0 or i == 3:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+            print(row)
+
+          
+    if "b" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "#"
+                if i == 0 or i == 3 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 1 or i == 2 or i == 4 or i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 4 or i == 5:
+                    if j == 4:
+                        row = row + "#"
+            print(row)
+
+          
+    if "c" in word:
+        for i in range(8):
+            row =  ""
+            for j in range(5):
+                if i == 0 or i == 6:
+                    if j == 0:
+                        row = " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 0:
+                        row = row + "#"
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 1 or i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1 or i == 5:
+                    if j == 4:
+                        row = row + "#"
+            print(row)
+
+    if "d" in word:
+        for i in range(8):
+            row =  ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "#"
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 4:
+                        row = row + "#"
+            print(row)
+
+    if "e" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "#"
+                if i == 0 or i == 3 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 0 or i == 6:
+                    if j == 4:
+                        row == row + "#"
+            print(row)
+
+    if "f" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "#"
+                if i == 0:
+                    if j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "#"
+                if i == 3:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+            print(row)
+    if "g" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 0:
+                        row = row + "#"
+                if i == 0 or i == 6:
+                    if j == 0:
+                        row = row + " "
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2:
+                        row == row + "#"
+                if i == 1 or i == 2 or i == 4 or i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 1 or j == 2:
+                        row = row  + " "
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2:
+                        row = row + "#"
+                if i == 0 or i == 3 or i == 6:
+                    if j == 3:
+                        row = row + "#"
+                if i == 1 or i == 3 or i == 4 or i == 5:
+                    if j == 4:
+                        row = row + "#"
+            print(row)
+    if "h" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                if i == 0 or i == 1 or i == 2 or i == 4 or i == 5 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+            print(row)
+    if "i" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 2:
+                        row = row + "#"
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+            print(row)
+    if "j" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 0:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 2:
+                        row = row + "#"
+                if i == 0:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 6:
+                    if j == 0 or j == 2:
+                        row = row + "#"
+            print(row)
+    if "k" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1 or i == 5:
+                    if j == 1 or j == 2:
+                        row = row + " "
+                if i == 2 or i == 4:
+                    if j == 1:
+                        row = row + " "
+            print(row)
+    if "l" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "#"
+                if i == 6:
+                    if j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "#"
+            print(row)
+    if "m" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 1 or j == 4:
+                        row = row + "#"
+                if i == 0 or i == 1 or i == 4 or i == 5 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 1 or j == 3:
+                        row = row + "#"
+                if i == 2:
+                    if j == 2:
+                        row = row + " "
+                if i == 3:
+                    if j == 1 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 2:
+                        row = row + "#"
+            print(row)
+    if "n" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 1 or j == 4:
+                        row = row + "#"
+                if i == 0 or i == 1 or i == 5 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 1:
+                        row = row + "#"
+                if i == 2:
+                    if j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 2:
+                        row = row + "#"
+                if i == 3:
+                    if j == 1 or j == 3:
+                        row = row + " "
+                if i == 4:
+                    if j == 1 or j == 2:
+                        row = row + " "
+                if i == 4:
+                    if j == 3:
+                        row = row + "#"
+            print(row)
+    if "o" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1 or j == 4:
+                        row = row + "#"
+                if i == 0 or i == 6:
+                    if j == 0:
+                        row = row + " "
+                if i == 0 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+            print(row)
+    if "p" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "#" 
+                if i == 1 or i == 2:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 0 or i == 3:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row +"#"
+                if i == 1 or i == 2:
+                    if j == 4:
+                        row = row + "#"
+            print(row)
+    if "q" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1 or j == 4:
+                        row = row + "#"
+                if i == 0 or i == 6:
+                    if j == 0:
+                        row = row + " "
+                if i == 0:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 1 or i == 2 or i == 3 or i == 4:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 5:
+                    if j == 1 or j == 2:
+                        row = row + " "
+                if i == 6:
+                    if j == 1 or j == 2 or j == 4:
+                        row = row + "#"
+                if i == 6:
+                    if j == 3:
+                        row = row + " "
+            print(row)
+    if "r" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "#" 
+                if i == 1 or i == 2:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 0 or i == 3:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row +"#"
+                if i == 1 or i == 2:
+                    if j == 4:
+                        row = row + "#"
+                if i == 4 or i == 5 or i == 6:
+                    if j == 4:
+                        row = row + "#"
+                if i == 4 or i == 5 or i == 6:
+                    if j == 2:
+                        row = row + " "
+                if i == 5 or i == 6:
+                    if j == 2:
+                        row = row + " "
+                if i == 6:
+                    if j == 3:
+                        row = row + " "
+            print(row)
+    if "s" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 3 or i == 6:
+                   if j == 0:
+                       row = row + " "
+                if i == 0 or i == 3 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 0 or i == 1 or i == 2 or i == 4 or i == 5:
+                    if j == 4:
+                        row = row + "#"
+                if i == 4 or i == 5:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + " "
+            print(row)
+    if "t" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "#"
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 4 or i == 5 or i == 6:
+                    if j == 2:
+                        row = row + "#"
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 4 or i == 5 or i == 6:
+                    if j == 0 or j == 1:
+                        row = row + " "
+            print(row)
+    if "u" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1 or j == 4:
+                        row = row + "#"
+                if i == 6:
+                    if j == 0:
+                        row = row + " "
+                if i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+            print(row)
+    if "v" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 5:
+                    if j == 0 or j == 2:
+                        row = row + " "
+                if i == 5:
+                    if j == 1 or j == 3:
+                        row = row + "#"
+                if i == 6:
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 6:
+                    if j == 2:
+                        row = row + "#"  
+            print(row)
+    if "w" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                if i == 0 or i == 1 or i == 2 or i == 5 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 1 or j == 3:
+                        row = row + " "
+                if i == 4:
+                    if j == 1 or j == 3:
+                        row = row + "#"
+                if i == 3:
+                    if j == 2:
+                        row = row + "#"
+                if i == 4:
+                    if j == 2:
+                        row = row + " "
+            print(row)
+    if "x" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1 or i == 5 or i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                if i == 0 or i == 1 or i == 5 or i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2 or i == 4:
+                    if j == 0 or j == 2:
+                        row = row + " "
+                if i == 2 or i == 4:
+                    if j == 1 or j == 3:
+                        row = row + "#"
+                if i == 3:
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 3:
+                    if j == 3:
+                        row = row + "#"
+            print(row)
+    if "y" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 1:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                if i == 0 or i == 1:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2 or i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + " "
+                if i == 2:
+                    if j == 1 or j == 3:
+                        row = row + "#"
+                if i == 2:
+                    if j == 2:
+                        row = row + " "
+                if i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 1:
+                        row = row + " "
+                if i == 3 or i == 4 or i == 5 or i == 6:
+                    if j == 2:
+                        row = row + "#"
+            print(row)
+    if "z" in word:
+        for i in range(8):
+            row = ""
+            for j in range(5):
+                if i == 0 or i == 6:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "#"
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 4:
+                        row = row + "#"
+                if i == 1:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 2:
+                    if j == 0 or j == 1 or j == 2:
+                        row = row + " "
+                if i == 3:
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 4:
+                    if j == 0:
+                        row = row + " "
+            print(row)
